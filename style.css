@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif; 
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+    background: #000;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+}
+
+/* Header */
+
+.header{
+    background-image: url("./assets/header-bg.png");
+    width: 446px;
+    height: 552px;
+}
+
+.header-logo{
+    width: 202px;
+    
+}
+
+.header-logo-image{
+    margin: 38px 121px;
+}
+
+.header-button-order{
+    margin: 334px 74px;
+}
+
+.header-button{
+   
+    width: 298px;
+    height: 49px;
+
+    border-radius: 24px;
+
+    font-size: 15px;
+    font-style: normal;
+    color: #ffff;
+    background: transparent;
+   
+    text-transform: uppercase;
+    border: 1px solid white;
+    font-weight: 700;
+    line-height: 20px; /* 133.333% */
+    transition: ease-in-out .3s;
+}
+
+.header-button:hover{
+    background: #000;
+    border: none;
+}
+
+/* Wrapper */
+
+.card-coffe{
+    margin: 31px 32px;
+}
+.card-coffe:nth-child(2){
+    margin-top: -6px;
+}
+.card-coffe:nth-child(3){
+    margin-top: -6px;
+}
+
+.wrapper-quality-box{
+    margin: -7px 34px;
+    width: 380px;
+    height: 639px;
+
+    background-image: url("./assets/wrapper-img/section-coffe-bg.png");
+    border-radius: 8px;
+    background-blend-mode: screen;
+}
+
+.quality-title{
+    padding-top: 50px;
+    color: #FFF;
+    text-align: center;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 34px; /* 100% */
+}
+
+.quality-description{
+    margin-top: 38px;
+    color: #FFF;
+    text-align: center;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px; /* 100% */
+}
+
+.wrapper-individual{
+    margin-left: 33px;
+    width: 380px;
+    height: 520px;
+    background-image: url("./assets/wrapper-img/bg-gradient.png");
+    mix-blend-mode: screen;
+    border-radius: 12px;
+}
+
+.individual-btn{
+    margin: 95px 30px;
+}
+
+.individual-button{
+    width: 322.52px;
+    height: 55.828px;
+    border-radius: 8px;
+    color: #FFF;
+    border: 1px solid #FFF;
+    background: inherit;
+
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; /* 100% */
+    text-transform: uppercase;
+}
+
+.wrapper-price{
+    margin-left: 33px;
+
+    width: 380px;
+    height: 426px;
+    background-image: url("./assets/wrapper-img/section-bg-coffe-price.png");
+    border-radius: 8px;
+}
+
+.quality-description:last-child{
+    margin-top: 100px;
+}
+
+.wrapper-video{
+    margin: 41px 32px;
+    width: 380px;
+    height: 520px;
+
+    border-radius: 12px;
+}
+
+.wrapper-form-contact{
+    margin: -13px 32px;
+    width: 380px;
+    height: 574px;
+    border-radius: 8px;
+    background: rgba(25, 22, 28, 0.80);
+    backdrop-filter: blur(5px);
+}
+
+.form-title{
+    padding-top: 29px;
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; /* 100% */
+}
+
+.form-title span{
+    color: rgba(248, 228, 190, 0.80);
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.form-subtitle{
+    margin-top: 27px;
+    color: #FFF;
+    text-align: center;
+
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 17px; /* 100% */
+}
+
+.form-description{
+    margin-top: 4px;
+    color: #FFF;
+    text-align: center;
+
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px; /* 100% */
+}
+
+.form{
+    margin: 5px 18px;
+}
+
+.form-input{
+    margin-top: 20px;
+    width: 340px;
+    height: 56px;
+    border-radius: 8px;
+    border: 1.269px solid rgba(255, 255, 255, 0.10);
+    background: #19161C;
+}
+
+.form-input::placeholder{
+    text-align: center;
+}
+
+.form-button{
+    margin: 40px 20px;
+    width: 340px;
+    height: 56px;
+    border-radius: 8px;
+    color: #FFF;
+    border: 1.269px solid #FFF;
+    background: inherit;
+
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; /* 100% */
+    text-transform: uppercase;
+}
+
+/* Footer */
+.footer-logo{
+    margin: 71px 123px;
+}
